@@ -6,7 +6,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method === "GET") {
+  if (req.method === "GET" && req.query.id) {
     const { id } = req.query;
     const query = postDetailQuery(id);
 
