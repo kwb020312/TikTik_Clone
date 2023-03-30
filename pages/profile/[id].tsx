@@ -66,7 +66,7 @@ const Profile = ({ data }: IProps) => {
             className={`text-xl font-semibold cursor-pointer mt-2 ${liked}`}
             onClick={() => setShowUserVideos(false)}
           >
-            Videos
+            Liked
           </p>
         </div>
         <div className="flex gap-6 flex-wrap md:justify-start">
