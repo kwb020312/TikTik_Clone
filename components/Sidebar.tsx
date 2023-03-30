@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { NextPage } from "next";
-import { useRouter } from "next/router";
 import Link from "next/link";
 import GoogleLogin from "react-google-login";
 import { AiFillHome, AiOutlineMenu } from "react-icons/ai";
@@ -8,11 +6,12 @@ import { ImCancelCircle } from "react-icons/im";
 import Discover from "./Discover";
 import Footer from "./Footer";
 import SuggestedAccounts from "./SuggestedAccounts";
+import useAuthStore from "@/store/authStore";
 
 export const Sidebar = () => {
   const [showSidebar, setShowSidebar] = useState(true);
 
-  const userProfile = null;
+  const { userProfile } = useAuthStore();
 
   const normalLink =
     "flex items-center gap-3 hover:bg-primary p-3 justify-center xl:justify-start cursor-pointer font-semibold text-[#F51997] rounded";

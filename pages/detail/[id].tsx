@@ -65,7 +65,8 @@ const Detail = ({ postDetails }: IProps) => {
         userId: userProfile._id,
         comment,
       });
-      setPost({ ...post, comments: data.comment });
+      console.log(data);
+      setPost({ ...post, comments: data.comments });
       setComment("");
       setIsPostingComment(false);
     }

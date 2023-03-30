@@ -34,7 +34,7 @@ const LikeButton = ({ likes, handleLike, handleDislike }: IProps) => {
         ) : (
           <div
             className="bg-primary rounded-full p-2 md:p-4"
-            onClick={handleDislike}
+            onClick={handleLike}
           >
             <MdFavorite className="text-lg md:test-2xl" />
           </div>
