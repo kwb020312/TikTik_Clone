@@ -15,3 +15,6 @@
 - [x] 영상 검색
 - [x] 알고리즘 추천
 - [x] 관련 영상
+- [x] Vercel에 앱 배포
+
+[틱틱 바로가기!](https://tik-tik-clone-2t8h.vercel.app/)
