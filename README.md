@@ -1,6 +1,8 @@
 # TikTik Clone
 
-![image](https://user-images.githubusercontent.com/46777310/227241256-9fa5bae6-22fa-402c-9a55-49b26debb798.png)
+![image](https://user-images.githubusercontent.com/46777310/229180982-fde7928b-9c56-4937-9bca-5bcd37fe3514.png)
+
+[틱틱 바로가기!](https://tik-tik-clone-2t8h.vercel.app/)
 
 ## TodoList
 
@@ -17,4 +19,4 @@
 - [x] 관련 영상
 - [x] Vercel에 앱 배포
 
-[틱틱 바로가기!](https://tik-tik-clone-2t8h.vercel.app/)
+
