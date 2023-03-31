@@ -65,14 +65,13 @@ const Detail = ({ postDetails }: IProps) => {
         userId: userProfile._id,
         comment,
       });
-      console.log(data);
       setPost({ ...post, comments: data.comments });
       setComment("");
       setIsPostingComment(false);
     }
   };
   if (!post) return null;
-
+  console.log(post);
   return (
     <div className="flex w-full absolute left-0 top-0 bg-white flex-wrap lg:flex-nowrap">
       <div className="relative flex-2 w-[1000px] lg:w-9/12 flex justify-center items-center  bg-black">
