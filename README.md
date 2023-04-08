@@ -1,7 +1,5 @@
 # TikTik Clone
 
-![image](https://user-images.githubusercontent.com/46777310/229180982-fde7928b-9c56-4937-9bca-5bcd37fe3514.png)
-
 ![image](https://user-images.githubusercontent.com/46777310/230705965-042b3786-feab-45a1-a62a-d0ae680ed520.png)
 
 ![image](https://user-images.githubusercontent.com/46777310/230705986-f77440b6-8427-444a-98bc-467c45c14dfc.png)
